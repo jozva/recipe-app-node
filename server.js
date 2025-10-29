@@ -9,7 +9,7 @@ const ObjectId = mongodb.ObjectId
 
 
 app.use(cors({
-    origin: "https://rococo-jelly-00b6bf.netlify.app/"
+    origin: "https://rococo-jelly-00b6bf.netlify.app"
 }))
 app.use(express.json())
 
