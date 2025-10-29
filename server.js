@@ -3,13 +3,13 @@ const app = express();
 const cors = require("cors");
 const mongodb = require("mongodb");
 const mongoClient = mongodb.MongoClient;
-const URL = "mongodb://localhost:27017";
+const URL = "mongodb+srv://admin:admin123@cluster0.3l46rnz.mongodb.net/?appName=Cluster0/";
 const db_name = "products";
 const ObjectId = mongodb.ObjectId
 
 
 app.use(cors({
-    origin: "https://rococo-jelly-00b6bf.netlify.app"
+    origin: "http://localhost:5173"
 }))
 app.use(express.json())
 
